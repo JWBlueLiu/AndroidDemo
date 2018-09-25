@@ -1,0 +1,16 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <objectAnimator
+        android:propertyName="@string/scale_x"
+        android:valueFrom="0"
+        android:valueTo="1.0"
+        android:duration="@integer/wifi_connect_circle_scale_duration"
+        android:interpolator="@interpolator/le_c_interpolator" />
+    <objectAnimator
+        android:propertyName="@string/scale_y"
+        android:valueFrom="0"
+        android:valueTo="1.0"
+        android:duration="@integer/wifi_connect_circle_scale_duration"
+        android:interpolator="@interpolator/le_c_interpolator" />
+</set>
+

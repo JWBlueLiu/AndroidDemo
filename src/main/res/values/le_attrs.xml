@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- LeCheckBox -->
+    <declare-styleable name="leCheckbox">
+        <attr name="leBoxOnColor" format="reference|color" />
+        <attr name="leBoxArrowColor" format="reference|color" />
+        <attr name="leBoxArrowColorWithoutBorder" format="reference|color" />
+        <attr name="leBoxSize" format="dimension" />
+        <attr name="leBoxWithoutBorder" format="boolean" />
+        <attr name="leBoxIsTextOnRight" format="boolean" />
+        <attr name="leBoxInnerPadding" format="dimension" />
+        <attr name="leTextOnColor" format="reference|color" />
+    </declare-styleable>
+
+    <!-- SimCardView -->
+    <declare-styleable name="SimCardView">
+        <attr name="simCardGravity">
+            <enum name="normal" value="0" />
+            <enum name="center" value="1" />
+            <enum name="center_vertical" value="2" />
+            <enum name="center_horizontal" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- WifiConnectView -->
+    <declare-styleable name="WifiConnectView">
+        <attr name="wifiGravity">
+            <enum name="normal" value="0" />
+            <enum name="center" value="1" />
+            <enum name="center_vertical" value="2" />
+            <enum name="center_horizontal" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <!-- ShapeSelectorView -->
+    <declare-styleable name="ShapeSelectorView">
+        <attr name="shapeColor" format="color" />
+        <attr name="displayShapeName" format="boolean" />
+    </declare-styleable>
+
+</resources>

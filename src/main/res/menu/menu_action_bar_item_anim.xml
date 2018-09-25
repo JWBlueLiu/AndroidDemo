@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.demoCollection.animation.ActionBarItemAnimActivity">
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/activity_action_bar_item_action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings1"
+        android:title="@string/activity_action_bar_item_action_settings1"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings2"
+        android:title="@string/activity_action_bar_item_action_settings2"
+        android:icon="@android:drawable/ic_popup_disk_full"
+        android:showAsAction="always" />
+</menu>

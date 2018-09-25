@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- text float alpha -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueFrom="@dimen/transparency"
+    android:valueTo="@dimen/opacity"
+    android:propertyName="@string/alpha"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:startOffset="@integer/slide_text_float_offset"
+    android:duration="@integer/text_float_duration" />

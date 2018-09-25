@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="80dp"
+    android:width="80dp"
+    android:viewportHeight="80"
+    android:viewportWidth="80">
+    <!-- circle -->
+    <group
+        android:name="circle"
+        android:pivotX="40"
+        android:pivotY="40"
+        android:scaleX="0"
+        android:scaleY="0">
+        <path
+            android:fillColor="#43AD69"
+            android:pathData="M 0,40 a 40,40 0 1,0 80,0 a 40,40 0 1,0 -80,0" />
+    </group>
+
+    <!-- point -->
+    <group
+        android:name="point"
+        android:scaleX="0"
+        android:scaleY="0">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M 37,52 h 6 v 6 h -6 v -6" />
+    </group>
+
+    <!-- line -->
+    <group
+        android:name="line"
+        android:pivotX="40"
+        android:pivotY="58"
+        android:scaleX="0"
+        android:scaleY="0">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M 37,34 h 6 v 24 h -6 v -24" />
+    </group>
+
+</vector>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoCollection</string>
+    <string name="sample_show_log">显示log</string>
+    <string name="sample_hide_log">隐藏log</string>
+
+    <!-- Common -->
+    <string name="start">开  始</string>
+    <string name="end">结  束</string>
+    <string name="cancel">取 消</string>
+    <string name="get">获 取</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="scan_fail">扫描失败</string>
+    <string name="scan_ok">扫描成功</string>
+    <string name="pause">暂 停</string>
+    <string name="demo1">效 果1</string>
+    <string name="demo2">效 果2</string>
+    <string name="translation_x">translationX</string>
+    <string name="translation_y">translationY</string>
+    <string name="transaltion_x">translationX</string>
+    <string name="transaltion_z">translationZ</string>
+    <string name="translate_x">translateX</string>
+    <string name="translate_y">translateY</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="z">z</string>
+    <string name="rotation_x">rotationX</string>
+    <string name="rotation_y">rotationY</string>
+    <string name="scale_x">scaleX</string>
+    <string name="scale_y">scaleY</string>
+    <string name="alpha">alpha</string>
+    <string name="fill_alpha">fillAlpha</string>
+
+    <string name="activity_drawer_open">打 开</string>
+    <string name="activity_drawer_close">关 闭</string>
+    <!-- StatementDialogActivity -->
+    <string name="le_licence_dialog_title">Statements and terms</string>
+    <string name="le_licence_dialog_content">
+        You will use the %1$s provided by Letv, please read through the %2$s.%3$s is required during use. Do you agree?
+    </string>
+    <string name="le_licence_dialog_permission_location_net">Use your location information and connect to the network</string>
+    <string name="le_licence_dialog_permission_net">Connect to the network</string>
+    <string name="le_licence_dialog_cb_text">Do not show again</string>
+    <string name="le_licence_dialog_btn_exit">Exit</string>
+    <string name="le_licence_dialog_btn_agree">Agree and continue</string>
+    <string name="le_licence_dialog_usage">
+        <![CDATA[
+            <a href="http://xpage.scloud.letv.com/api/agree/user/en">usage agreement</a>
+        ]]>
+    </string>
+    <string name="le_licence_dialog_privacy">
+        <![CDATA[
+            <a href="http://xpage.scloud.letv.com/api/agree/privacy/en">privacy agreement</a>
+        ]]>
+    </string>
+    <string name="le_licence_dialog_usage_privacy">
+        <![CDATA[
+            <a href="http://xpage.scloud.letv.com/api/agree/user/en">usage agreement</a> and
+            <a href="http://xpage.scloud.letv.com/api/agree/privacy/en">privacy agreement</a>
+        ]]>
+    </string>
+
+    <string name="le_January">January</string>
+    <string name="le_February">February</string>
+    <string name="le_March">March</string>
+    <string name="le_April">April</string>
+    <string name="le_May">May</string>
+    <string name="le_June">June</string>
+    <string name="le_July">July</string>
+    <string name="le_August">August</string>
+    <string name="le_September">September</string>
+    <string name="le_October">October</string>
+    <string name="le_November">November</string>
+    <string name="le_December">December</string>
+    <string name="le_Jan">Jan</string>
+    <string name="le_Feb">Feb</string>
+    <string name="le_Mar">Mar</string>
+    <string name="le_Apr">Apr</string>
+    <string name="le_May_simple">May</string>
+    <string name="le_Jun">Jun</string>
+    <string name="le_Jul">Jul</string>
+    <string name="le_Aug">Aug</string>
+    <string name="le_Sep">Sep</string>
+    <string name="le_Oct">Oct</string>
+    <string name="le_Nov">Nov</string>
+    <string name="le_Dec">Dec</string>
+
+    <string name="activity_cloud_service_item1">条目1条目1条目1条目1条目1条目1条目1条目1条目1条目1条目1条目1条目1条目1</string>
+    <string name="activity_cloud_service_item2">条目2条目2条目2条目2条目2条目2条目2条目2</string>
+    <string name="activity_cloud_service_item3">条目3条目2条目2条目2条目2条目2</string>
+    <string name="activity_cloud_service_item4">条目4条目2条目2条目2条目2条目2条目2条目2条目2条目2</string>
+
+    <string name="answer_phone">接 听</string>
+    <string name="refuse_phone">挂 断</string>
+
+</resources>

@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="10dp">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/btn_answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/answer_phone" />
+
+        <Button
+            android:id="@+id/btn_refuse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/refuse_phone" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="3000px">
+
+        <FrameLayout
+            android:id="@+id/answerFr_shadow"
+            android:layout_width="fill_parent"
+            android:layout_height="1500px"
+            android:clickable="true">
+            <!-- top -->
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_light" />
+            <!-- black cover -->
+            <RelativeLayout
+                android:id="@+id/blackCover"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:alpha="0.0">
+
+                <TextView
+                    android:id="@+id/slide_down_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:alpha="0.0"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="下滑挂断" />
+            </RelativeLayout>
+        </FrameLayout>
+        <!-- bottom -->
+        <RelativeLayout
+            android:id="@+id/answerFr_bottom"
+            android:layout_below="@id/answerFr_shadow"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/slide_up_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:alpha="0.0"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="上滑接听" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

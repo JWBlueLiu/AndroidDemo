@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="le_month_name">
+        <item>@string/le_January</item>
+        <item>@string/le_February</item>
+        <item>@string/le_March</item>
+        <item>@string/le_April</item>
+        <item>@string/le_May</item>
+        <item>@string/le_June</item>
+        <item>@string/le_July</item>
+        <item>@string/le_August</item>
+        <item>@string/le_September</item>
+        <item>@string/le_October</item>
+        <item>@string/le_November</item>
+        <item>@string/le_December</item>
+    </string-array>
+
+    <string-array name="le_month_name_simple">
+        <item>@string/le_Jan</item>
+        <item>@string/le_Feb</item>
+        <item>@string/le_Mar</item>
+        <item>@string/le_Apr</item>
+        <item>@string/le_May</item>
+        <item>@string/le_Jun</item>
+        <item>@string/le_Jul</item>
+        <item>@string/le_Aug</item>
+        <item>@string/le_Sep</item>
+        <item>@string/le_Oct</item>
+        <item>@string/le_Nov</item>
+        <item>@string/le_Dec</item>
+    </string-array>
+
+    <string-array name="bottom_option_icon">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </string-array>
+
+    <string-array name="bottom_option_text">
+        <item>拍照</item>
+        <item>相册</item>
+        <item>文件</item>
+        <item>来信附件</item>
+    </string-array>
+
+</resources>

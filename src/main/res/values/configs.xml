@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- touch -->
+    <string name="title_activity_touch">触 摸/Touch</string>
+    <string name="title_activity_gesture_detector">触 摸/GestureDetector</string>
+    <!-- touch -->
+
+
+    <!-- 动 画 -->
+    <!-- ProgressBarActivity -->
+    <string name="title_activity_progress_bar">动 画/进度条</string>
+    <!-- SetUpCommonActivity -->
+    <string name="title_activity_setup_common">动 画/开机向导/公共</string>
+    <!-- CloudServiceActivity -->
+    <string name="title_activity_cloud_service">动 画/开机向导/云服务</string>
+    <!-- LoginActivity -->
+    <string name="title_activity_login_icon">动 画/开机向导/Icon_登陆</string>
+    <!-- UsageTermsActivity -->
+    <string name="title_activity_usage_terms">动 画/开机向导/Icon_用户条款</string>
+    <!-- ButtonStateActivity -->
+    <!-- WifiConnectViewActivity -->
+    <string name="title_activity_wifi_connect_view">动 画/开机向导/Icon_WIFI</string>
+    <string name="title_activity_play_button">动 画/ButtonState</string>
+    <!-- AnswerFragment -->
+    <string name="title_fragment_answer">动 画/AnswerFragment</string>
+    <!-- EyeGrainUnlockActivity -->
+    <string name="title_activity_eye_grain_unlock">动 画/眼纹解锁</string>
+    <!-- ActionBarItemAnimActivity -->
+    <string name="title_activity_action_bar_item_anim">动 画/ActionBar MenuItem动画</string>
+    <string name="activity_action_bar_item_action_search">搜索</string>
+    <string name="activity_action_bar_item_action_settings1">设置1</string>
+    <string name="activity_action_bar_item_action_settings2">设置2</string>
+    <!-- MatrixActivity -->
+    <string name="title_activity_matrix">动 画/矩 阵</string>
+    <!-- GallerySvgUploadActivity -->
+    <string name="title_activity_gallery_svg">动 画/上传动画</string>
+    <!-- 动  画 -->
+
+
+    <!-- logic -->
+    <!-- launchMode -->
+    <string name="first_activity_launch_mode">逻 辑/第一个</string>
+    <string name="other_activity_launch_mode">逻 辑/其他</string>
+    <string name="second_activity_launch_mode">逻 辑/第二个</string>
+    <!-- StickerProviderActivity -->
+    <string name="title_activity_sticker_provider">逻 辑/ContentProvider</string>
+    <!-- logic -->
+
+
+    <!-- third_party -->
+    <string name="title_activity_glide">三 方/Glide</string>
+    <string name="title_activity_RxJava">三 方/RxJava(App info list)</string>
+    <!-- third_party -->
+
+
+    <!-- graphics -->
+    <string name="title_activity_load_bitmap">图 形/加载大图</string>
+    <!-- graphics -->
+
+
+    <!-- APP Guides -->
+    <string name="title_activity_loader">APP Guides/App Components/Activities/Loader</string>
+    <string name="title_activity_uri">APP Guides/App Components/Intent/Uri</string>
+    <string name="title_activity_video">APP Guides/Media and Camera/Video</string>
+    <!-- APP Guides -->
+
+
+    <!-- Training -->
+    <string name="title_activity_activity_life_cycle_demo">Training/入门/生命周期/ActivityLifeCycleDemo</string>
+    <!-- ActionBar -->
+    <string name="title_activity_action_bar_demo1">Training/ActionBar/简单的ActionBar</string>
+    <string name="action_search">搜索</string>
+    <string name="action_settings1">设置1</string>
+    <string name="action_settings2">设置2</string>
+    <string name="title_activity_action_bar_demo2">Training/ActionBar/ActionBarOverLay</string>
+    <!-- ActionBar -->
+    <string name="title_activity_permission">Training/Permission/Permission</string>
+    <string name="title_activity_locale">Training/Locale</string>
+    <string name="title_activity_state">Training/State</string>
+    <!-- Training -->
+
+
+    <!-- Design Pattern -->
+    <string name="title_activity_SRP">Design Pattern/六大原则/单一职责(Single Responsibility Principle)</string>
+    <!-- Design Pattern -->
+
+
+    <!-- Demo -->
+    <string name="title_activity_demo">Demo/DemoActivity</string>
+    <string name="title_activity_demo1">Demo/DemoActivity1</string>
+    <!-- Demo -->
+
+
+    <!-- UI 控件 -->
+    <string name="title_activity_seek_bar">UI 控件/SeekBarActivity</string>
+    <!-- DrawerLayoutActivity -->
+    <string name="title_activity_drawer_layout">UI 控件/DrawerLayout</string>
+    <!-- LeLicenceDialog -->
+    <string name="title_activity_le_licence_statement_dialog">UI 控件/LeLicenceDialog</string>
+    <!-- LeLicenceDialog -->
+    <!-- RecorderSeekBarActivity -->
+    <string name="title_activity_recorder_seek_bar">UI 控件/RecorderSeekBarActivity</string>
+    <!-- ViewPagerActivity -->
+    <string name="title_activity_view_pager">UI 控件/ViewPagerActivity</string>
+    <string name="title_activity_music_cover_activity1">UI 控件/MusicCoverActivity1</string>
+    <!-- MusicCoverActivity2 -->
+    <string name="title_activity_music_cover_activity2">UI 控件/MusicCoverActivity2</string>
+    <!-- StikkyScrollView -->
+    <string name="title_activity_stick_scroll_view">UI 控件/StikkyScrollView</string>
+    <!-- DateGalleryActivity -->
+    <string name="title_activity_date_gallery">UI 控件/DateGalleryActivity</string>
+    <!-- MultiTaskActivity -->
+    <string name="title_activity_multi_task">UI 控件/MultiTaskView</string>
+    <!-- DialogFragmentActivity -->
+    <string name="title_activity_dialog_fragment">UI 控件/DialogFragment</string>
+    <!-- DraggableViewActivity -->
+    <string name="title_activity_draggable_view">UI 控件/可拖动的View</string>
+    <!-- ConversationActivity -->
+    <string name="title_activity_conversation">UI 控件/会话</string>
+    <string name="type_to_compose_text_enter_to_send">回复全部</string>
+    <!-- CompleteTextViewActivity -->
+    <string name="title_activity_complete_text_view">UI 控件/CompleteTextView</string>
+    <string name="title_activity_custom_view">UI 控件/CustomView</string>
+    <!-- UI 控件 -->
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LeLicenceDialog -->
+    <string name="le_licence_dialog_title">聲明和條款</string>
+    <string name="le_licence_dialog_content">您將使用樂視提供的%1$s，請閱讀%2$s。在使用過程中需要%3$s，您是否同意？</string>
+    <string name="le_licence_dialog_permission_location_net">您的位置資訊和網絡連接</string>
+    <string name="le_licence_dialog_permission_net">連線</string>
+    <string name="le_licence_dialog_cb_text">不再提示</string>
+    <string name="le_licence_dialog_btn_exit">退出</string>
+    <string name="le_licence_dialog_btn_agree">同意並繼續</string>
+    <string name="le_licence_dialog_usage">
+        <![CDATA[
+            <a href="http://xpage.scloud.letv.com/api/agree/user/hk_sm">使用協議</a>
+        ]]>
+    </string>
+    <string name="le_licence_dialog_privacy">
+        <![CDATA[
+            <a href="http://xpage.scloud.letv.com/api/agree/privacy/hk_sm">私隱協議</a>
+        ]]>
+    </string>
+    <string name="le_licence_dialog_usage_privacy">
+        <![CDATA[
+            <a href="http://xpage.scloud.letv.com/api/agree/user/hk_sm">使用協議</a>和<a href="http://xpage.scloud.letv.com/api/agree/privacy/hk_sm">私隱協議</a>
+        ]]>
+    </string>
+    <!-- LeLicenceDialog -->
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- fragment answer exit anim -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueTo="-1500"
+    android:propertyName="@string/translation_y"
+    android:duration="@integer/fragment_answer_enter_exit_duration" />

@@ -1,0 +1,17 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="@string/scale_x"
+        android:valueTo="@dimen/usage_terms_circle_scale2"
+        android:duration="0" />
+    <objectAnimator
+        android:propertyName="@string/scale_y"
+        android:valueTo="@dimen/usage_terms_circle_scale2"
+        android:startOffset="@integer/usage_terms_point_translation_y_delay"
+        android:duration="0" />
+    <objectAnimator
+        android:propertyName="@string/translate_y"
+        android:valueTo="@integer/usage_terms_point_translation_end_y"
+        android:interpolator="@android:interpolator/bounce"
+        android:startOffset="@integer/usage_terms_point_translation_y_delay"
+        android:duration="@integer/usage_terms_point_translation_y_duration" />
+</set>

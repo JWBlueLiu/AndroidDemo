@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- LeLicenceDialog -->
+    <style name="leLicenceDialogTheme" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/leLicenceWindowAnimationStyle</item>
+    </style>
+
+    <style name="leLicenceWindowAnimationStyle">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@anim/le_licence_slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/le_licence_slide_bottom_out</item>
+    </style>
+
+    <!-- DemoActivity -->
+    <style name="conversationMsgContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="conversationMsgTextStyle">
+        <item name="android:id">@id/tv_msg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Small</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:maxLines">4</item>
+    </style>
+
+    <style name="conversationCheckBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+</resources>

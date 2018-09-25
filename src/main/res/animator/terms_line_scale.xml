@@ -1,0 +1,12 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="@string/scale_x"
+        android:valueTo="@dimen/usage_terms_line_scale2"
+        android:duration="0" />
+    <objectAnimator
+        android:propertyName="scaleY"
+        android:valueTo="@dimen/usage_terms_line_scale2"
+        android:startOffset="@integer/usage_terms_point_line_scale_delay"
+        android:duration="@integer/usage_terms_point_line_scale_duration"
+        android:interpolator="@android:interpolator/fast_out_slow_in" />
+</set>

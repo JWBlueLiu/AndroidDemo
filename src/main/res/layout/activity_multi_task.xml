@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.demoCollection.widget.multiTask.MultiTaskView
+        android:id="@+id/mtv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.demoCollection.widget.multiTask.AutoCenterHorizontalScrollView
+            android:id="@+id/achsv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <com.example.demoCollection.widget.multiTask.AutoCenterHorizontalScrollView
+            android:id="@+id/achsv2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.example.demoCollection.widget.multiTask.MultiTaskView>
+
+    <!--<com.example.demoCollection.widget.multiTask.AutoCenterHorizontalScrollView2-->
+        <!--android:id="@+id/achs2"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <com.example.demoCollection.widget.multiTask.AutoCenterScrollView
+        android:id="@+id/acsv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<com.example.demoCollection.widget.multiTask.BounceScroller-->
+    <!--android:id="@+id/bs"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:gravity="center_horizontal">-->
+    <!--<ScrollView-->
+    <!--android:id="@+id/achs3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@android:color/holo_blue_light"/>-->
+    <!--</com.example.demoCollection.widget.multiTask.BounceScroller>-->
+
+</LinearLayout>

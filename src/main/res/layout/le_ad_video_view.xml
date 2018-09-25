@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <VideoView
+        android:id="@+id/le_ad_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.example.demoCollection.api_guides.media_and_camera.widget.LeAdVideoViewController
+        android:id="@+id/le_ad_video_view_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</merge>

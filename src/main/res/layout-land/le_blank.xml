@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/LeBlankPage.TextView"
+        android:maxLines="3"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/msg"
+        style="@style/LeBlankPage.TextView"
+        android:maxLines="2"
+        android:textSize="12dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/le_blank_page_divider">
+        <Button
+            android:id="@+id/primaryBtn"
+            style="@style/LeBlankPage.Button" />
+        <Button
+            android:id="@+id/secondBtn"
+            style="@style/LeBlankPage.Button" />
+        <Button
+            android:id="@+id/thirdBtn"
+            style="@style/LeBlankPage.Button" />
+    </LinearLayout>
+
+</merge>

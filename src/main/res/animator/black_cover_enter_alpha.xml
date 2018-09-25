@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- text enter alpha --><!--<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueFrom="@dimen/transparency"
+    android:valueTo="0.7"
+    android:propertyName="@string/alpha"
+    android:duration="@integer/fragment_answer_enter_exit_duration"
+    android:interpolator="@android:interpolator/accelerate_decelerate"/>-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <set>
+        <objectAnimator
+            android:valueFrom="1.0"
+            android:valueTo="1.05"
+            android:duration="175"
+            android:propertyName="scaleX"
+            android:interpolator="@android:interpolator/accelerate_decelerate" />
+        <objectAnimator
+            android:valueFrom="1.0"
+            android:valueTo="1.05"
+            android:duration="175"
+            android:propertyName="scaleX"
+            android:interpolator="@android:interpolator/accelerate_decelerate" />
+    </set>
+    <set>
+        <objectAnimator
+            android:valueFrom="1.05"
+            android:valueTo="1.0"
+            android:duration="350"
+            android:propertyName="scaleX"
+            android:interpolator="@android:interpolator/accelerate_decelerate" />
+        <objectAnimator
+            android:valueFrom="1.05"
+            android:valueTo="1.0"
+            android:duration="350"
+            android:propertyName="scaleX"
+            android:interpolator="@android:interpolator/accelerate_decelerate" />
+        <objectAnimator
+            android:valueFrom="1.0"
+            android:valueTo="0.0"
+            android:duration="140"
+            android:propertyName="@string/alpha"
+            android:interpolator="@android:interpolator/accelerate_decelerate" />
+    </set>
+</set>

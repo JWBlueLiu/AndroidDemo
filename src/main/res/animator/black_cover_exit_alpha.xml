@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- text enter alpha -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueTo="@dimen/transparency"
+    android:propertyName="@string/alpha"
+    android:duration="@integer/fragment_answer_enter_exit_duration"
+    android:interpolator="@android:interpolator/accelerate_decelerate" />

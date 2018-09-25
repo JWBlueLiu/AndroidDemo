@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="240"
+    android:fromYDelta="@dimen/le_translate_y"
+    android:interpolator="@interpolator/le_ease_out_ease_in_path_interpolator"
+    android:toYDelta="0" />

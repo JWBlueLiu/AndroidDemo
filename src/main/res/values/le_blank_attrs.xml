@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="LeBlankPage">
+        <!-- Deprecated -->
+        <attr name="primaryTextColor" format="color|reference"/>
+        <attr name="secondTextColor" format="color|reference"/>
+        <attr name="thirdTextColor" format="color|reference"/>
+        <attr name="buttonTextColor" format="color|reference"/>
+        <attr name="primaryBackground" format="reference"/>
+        <attr name="secondBackground" format="reference"/>
+        <attr name="thirdBackground" format="reference"/>
+        <attr name="buttonBackground" format="reference"/>
+        <attr name="tintColor" format="color|reference"/>
+        <attr name="textPressedColor" format="color|reference"/>
+        <attr name="isShowInputMethed" format="boolean"/>
+        <attr name="isFullScreen" format="boolean"/>
+        <!-- new type -->
+        <attr name="icon" format="reference"/>
+        <attr name="description" format="string"/>
+        <attr name="message" format="string"/>
+        <attr name="primaryText" format="string"/>
+        <attr name="secondText" format="string"/>
+        <attr name="thirdText" format="string"/>
+        <attr name="leBlankPageColorPromptNormal" format="color"/>
+        <attr name="leBlankPageColorButtonNormal" format="color"/>
+        <attr name="leBlankPageColorButtonPress" format="color"/>
+        <attr name="leBlankPageColorButtonDisable" format="color"/>
+    </declare-styleable>
+
+</resources>

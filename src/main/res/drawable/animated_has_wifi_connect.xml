@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/has_wifi_connect">
+    <target
+        android:name="circle"
+        android:animation="@animator/wifi_connect_cicle_scale" />
+    <!-- line1 -->
+    <target
+        android:name="line1"
+        android:animation="@animator/wifi_connect_line1" />
+    <target
+        android:name="line1_path"
+        android:animation="@animator/wifi_connect_line1_path" />
+    <!-- line2 -->
+    <target
+        android:name="line2"
+        android:animation="@animator/wifi_connect_line2" />
+    <target
+        android:name="line2_path"
+        android:animation="@animator/wifi_connect_line2_path" />
+    <!-- line3 -->
+    <target
+        android:name="line3"
+        android:animation="@animator/wifi_connect_line3" />
+    <target
+        android:name="line3_path"
+        android:animation="@animator/wifi_connect_line3_path" />
+</animated-vector>
+

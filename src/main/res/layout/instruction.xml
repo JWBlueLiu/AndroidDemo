@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 介绍 & Log -->
+<ViewAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sample_output"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black" />
+    </ScrollView>
+
+    <fragment
+        android:id="@+id/log_fragment"
+        android:name="com.example.demoCollection.common.logger.LogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</ViewAnimator>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_snippet"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:clickable="true"
+    android:onClick="goScene2"
+    android:background="@android:color/holo_blue_light" />

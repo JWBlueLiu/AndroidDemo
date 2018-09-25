@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demoCollection">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/AppCompatTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- UI 控件 -->
+        <activity
+            android:name=".widget.SeekBarActivity"
+            android:label="@string/title_activity_seek_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.MusicCoverActivity1"
+            android:label="@string/title_activity_music_cover_activity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.MusicCoverActivity2"
+            android:label="@string/title_activity_music_cover_activity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.DrawerLayoutActivity"
+            android:label="@string/title_activity_drawer_layout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.LeLicenceDialogActivity"
+            android:label="@string/title_activity_le_licence_statement_dialog"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.StickScrollViewActivity"
+            android:label="@string/title_activity_stick_scroll_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.DateGalleryActivity"
+            android:label="@string/title_activity_date_gallery">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.MultiTaskActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_multi_task"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.DialogFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_dialog_fragment">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.DraggableViewActivity"
+            android:label="@string/title_activity_draggable_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.conversation.ConversationActivity"
+            android:label="@string/title_activity_conversation"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.CompleteTextViewActivity"
+            android:label="@string/title_activity_complete_text_view"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.custom_view.CustomViewActivity"
+            android:label="@string/title_activity_custom_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- UI 控件 -->
+
+
+        <!-- 动画 -->
+        <activity
+            android:name=".animation.SetupWizard.CloudServiceActivity"
+            android:label="@string/title_activity_cloud_service">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.SetupWizard.SetUpCommonActivity"
+            android:label="@string/title_activity_setup_common">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.SetupWizard.LoginIconActivity"
+            android:label="@string/title_activity_login_icon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.SetupWizard.UsageTermsActivity"
+            android:label="@string/title_activity_usage_terms">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.ButtonStateActivity"
+            android:label="@string/title_activity_play_button">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.AnswerFragment"
+            android:label="@string/title_fragment_answer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.EyeGrainUnlockActivity"
+            android:label="@string/title_activity_eye_grain_unlock">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.SetupWizard.WifiConnectViewActivity"
+            android:label="@string/title_activity_wifi_connect_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.ActionBarItemAnimActivity"
+            android:label="@string/title_activity_action_bar_item_anim">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.MatrixActivity"
+            android:label="@string/title_activity_matrix">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animation.GallerySvgUploadActivity"
+            android:label="@string/title_activity_gallery_svg">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- 动画 -->
+
+
+        <!-- touch -->
+        <activity
+            android:name=".touch.GestureDetectorActivity"
+            android:label="@string/title_activity_gesture_detector">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".touch.TouchActivity"
+            android:label="@string/title_activity_touch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- touch -->
+
+
+        <!-- Training -->
+        <activity
+            android:name=".training.actionbar.ActionBarDemo1Activity"
+            android:label="@string/title_activity_action_bar_demo1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.android.com"
+                    android:scheme="http" />
+                <data
+                    android:host="www.android.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="emojistore"
+                    android:path="/emojiHome"
+                    android:scheme="lecloud" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".training.actionbar.ActionBarDemo2Activity"
+            android:label="@string/title_activity_action_bar_demo2"
+            android:theme="@style/AppCompatTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".training.Start.lifecycle.ActivityLifeCycleDemoActivity"
+            android:label="@string/title_activity_activity_life_cycle_demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".training.permission.PermissionActivity"
+            android:label="@string/title_activity_permission">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".training.locale.LocaleActivity"
+            android:label="@string/title_activity_locale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".guides.app_basics.state.StateActivity"
+            android:label="@string/title_activity_state">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- Training -->
+
+
+        <!-- APP Guides -->
+        <activity
+            android:name=".api_guides.app_components.activities.loader.LoaderActivity"
+            android:label="@string/title_activity_loader"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".api_guides.app_components.Intent.UriActivity"
+            android:label="@string/title_activity_uri"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="com.example.demo"
+                    android:path="/uri"
+                    android:scheme="eui" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".api_guides.media_and_camera.VideoPlayActivity"
+            android:label="@string/title_activity_video"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- APP Guides -->
+
+
+        <!-- graphics -->
+        <activity
+            android:name=".graphics.LoadBitmapActivity"
+            android:label="@string/title_activity_load_bitmap"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- graphics -->
+
+
+        <!-- logic -->
+        <!-- launchMode -->
+        <activity
+            android:name=".logic.launchMode.FirActivity"
+            android:label="@string/first_activity_launch_mode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logic.launchMode.OtherActivity"
+            android:label="@string/other_activity_launch_mode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logic.launchMode.SecActivity"
+            android:label="@string/second_activity_launch_mode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logic.StickerProviderActivity"
+            android:label="@string/title_activity_sticker_provider">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".logic.StickerProvider"
+            android:authorities="com.example.demoCollection.StickerProvider"
+            android:exported="false" />
+        <!-- logic -->
+
+
+        <!-- third party -->
+        <activity
+            android:name=".third_party.GlideActivity"
+            android:label="@string/title_activity_glide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- third party -->
+
+
+        <!-- Design Pattern -->
+        <activity
+            android:name=".designPatern.singleResponsibility.SRPActivity"
+            android:label="@string/title_activity_SRP">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <!-- Design Pattern -->
+
+        <activity
+            android:name=".demo.DemoActivity"
+            android:label="@string/title_activity_demo"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.DemoActivity1"
+            android:allowTaskReparenting="false"
+            android:label="@string/title_activity_demo1"
+            android:taskAffinity="xxx.ccc"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEMO_COLLECTION" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

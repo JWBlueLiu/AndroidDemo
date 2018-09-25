@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- enter float anim -->
+    <!-- answer fragment -->
+    <integer name="fragment_answer_enter_exit_duration">525</integer>
+    <integer name="fragment_answer_float_duration">1400</integer>
+    <!-- slide text -->
+    <integer name="slide_text_enter_exit_alpha_duration">175</integer>
+    <integer name="slide_text_float_offset">1050</integer>
+    <integer name="slide_down_text_float_offset">420</integer>
+    <integer name="text_float_duration">350</integer>
+    <!-- MusicCover -->
+    <integer name="music_cover_top_translation_x_anim_duration">1000</integer>
+    <integer name="music_cover_top_sr_anim_duration1">175</integer>
+    <integer name="music_cover_top_sr_anim_duration2">825</integer>
+    <integer name="music_cover_bottom_translation_x_anim_duration">800</integer>
+    <integer name="music_cover_bottom_sr_anim_duration1">140</integer>
+    <integer name="music_cover_bottom_sr_anim_duration2">660</integer>
+
+    <!-- 动画 -->
+    <!-- 开机向导 -->
+    <!-- common -->
+    <integer name="circle_scale">1000</integer>
+    <!-- UsageTermsActivity -->
+    <integer name="usage_terms_circle_scale_duration">1000</integer>
+    <integer name="usage_terms_point_line_scale_delay">200</integer>
+    <integer name="usage_terms_point_line_scale_duration">350</integer>
+    <integer name="usage_terms_point_translation_start_y">30</integer>
+    <integer name="usage_terms_point_translation_end_y">-30</integer>
+    <integer name="usage_terms_point_translation_y_delay">500</integer>
+    <integer name="usage_terms_point_translation_y_duration">500</integer>
+    <!-- WifiConnectView -->
+    <integer name="wifi_connect_circle_scale_duration">1000</integer>
+    <integer name="wifi_connect_line_duration">500</integer>
+    <integer name="wifi_connect_line1_delay">175</integer>
+    <integer name="wifi_connect_line2_delay">245</integer>
+    <integer name="wifi_connect_line3_delay">315</integer>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="le_default_box_size">21dp</dimen>
+    <dimen name="le_default_box_size_with_border">18dp</dimen>
+    <dimen name="le_translate_y">100dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- AnswerFragment -->
+    <item name="transparency" format="float" type="dimen">0.0</item>
+    <item name="opacity" format="float" type="dimen">1.0</item>
+
+    <!-- MusicCover -->
+    <item name="music_cover_rotate_y1" format="float" type="dimen">-15</item>
+    <item name="music_cover_rotate_y2" format="float" type="dimen">0</item>
+    <item name="music_cover_rotate_y3" format="float" type="dimen">15</item>
+    <item name="music_cover_scale1" format="float" type="dimen">1.0</item>
+    <item name="music_cover_scale2" format="float" type="dimen">0.85</item>
+
+    <!-- 动画 -->
+    <!-- 开机向导 -->
+    <!-- UsageTermsActivity -->
+    <item name="usage_terms_circle_scale1" format="float" type="dimen">0.0</item>
+    <item name="usage_terms_circle_scale2" format="float" type="dimen">1.0</item>
+    <item name="usage_terms_line_scale1" format="float" type="dimen">0.0</item>
+    <item name="usage_terms_line_scale2" format="float" type="dimen">1.0</item>
+    <!-- WifiConnectViewActivity -->
+    <item name="wifi_connect_translate_y1" format="float" type="dimen">0.</item>
+    <item name="wifi_connect_translate_y2" format="float" type="dimen">30.</item>
+
+    <!-- UI 控件 -->
+    <!-- ConversationActivity -->
+    <dimen name="conversation_msg_icon_size">20dp</dimen>
+    <dimen name="conversation_msg_height_adjusted">30dp</dimen>
+    <dimen name="conversation_bottom_dot_size">5dp</dimen>
+    <dimen name="conversation_bottom_dot_margin">2dp</dimen>
+</resources>

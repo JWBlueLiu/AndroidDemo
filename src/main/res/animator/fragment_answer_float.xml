@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- fragment answer float anim -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueFrom="-798"
+    android:valueTo="-638"
+    android:propertyName="@string/translation_y"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:duration="@integer/fragment_answer_float_duration"
+    android:repeatMode="reverse"
+    android:repeatCount="infinite" />

@@ -1,0 +1,10 @@
+<!-- move -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:propertyName="@string/translate_y"
+    android:valueFrom="@dimen/wifi_connect_translate_y2"
+    android:valueTo="@dimen/wifi_connect_translate_y1"
+    android:startOffset="@integer/wifi_connect_line2_delay"
+    android:duration="@integer/wifi_connect_line_duration"
+    android:interpolator="@android:interpolator/accelerate_decelerate" />
+
+

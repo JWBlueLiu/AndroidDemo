@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/login">
+    <target
+        android:name="circle"
+        android:animation="@animator/login_cicle_scale" />
+    <target
+        android:name="head"
+        android:animation="@animator/login_head_translation_y" />
+    <target
+        android:name="body"
+        android:animation="@animator/login_body_translation_y" />
+</animated-vector>
+

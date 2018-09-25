@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_conversation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        style="@style/conversationMsgContainerStyle"
+        android:gravity="right">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/icon"
+                android:layout_width="@dimen/conversation_msg_icon_size"
+                android:layout_height="@dimen/conversation_msg_icon_size" />
+
+            <com.example.demoCollection.widget.leCheckBox.LeCheckBox
+                android:id="@+id/cb"
+                style="@style/conversationCheckBoxStyle" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@id/ll"
+            style="@style/conversationMsgTextStyle"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/conversation_card_list_item_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

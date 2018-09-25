@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="@string/transaltion_x"
+        android:duration="@integer/music_cover_bottom_translation_x_anim_duration"
+        android:interpolator="@interpolator/le_c_interpolator" />
+    <set>
+        <objectAnimator
+            android:propertyName="@string/scale_x"
+            android:valueFrom="@dimen/music_cover_scale1"
+            android:valueTo="@dimen/music_cover_scale2"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:duration="@integer/music_cover_bottom_sr_anim_duration1" />
+        <objectAnimator
+            android:propertyName="@string/scale_y"
+            android:valueFrom="@dimen/music_cover_scale1"
+            android:valueTo="@dimen/music_cover_scale2"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:duration="@integer/music_cover_bottom_sr_anim_duration1" />
+        <objectAnimator
+            android:propertyName="@string/rotation_y"
+            android:valueFrom="@dimen/music_cover_rotate_y2"
+            android:valueTo="@dimen/music_cover_rotate_y1"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:duration="@integer/music_cover_bottom_sr_anim_duration1" />
+    </set>
+    <set>
+        <objectAnimator
+            android:propertyName="@string/scale_x"
+            android:valueFrom="@dimen/music_cover_scale2"
+            android:valueTo="@dimen/music_cover_scale1"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:duration="@integer/music_cover_bottom_sr_anim_duration2" />
+        <objectAnimator
+            android:propertyName="@string/scale_y"
+            android:valueFrom="@dimen/music_cover_scale2"
+            android:valueTo="@dimen/music_cover_scale1"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:duration="@integer/music_cover_bottom_sr_anim_duration2" />
+        <objectAnimator
+            android:propertyName="@string/rotation_y"
+            android:valueFrom="@dimen/music_cover_rotate_y1"
+            android:valueTo="@dimen/music_cover_rotate_y2"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:duration="@integer/music_cover_bottom_sr_anim_duration2" />
+    </set>
+</set>

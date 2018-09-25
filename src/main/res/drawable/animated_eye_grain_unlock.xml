@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/eye_grain_unlock">
+    <target
+        android:name="eye_socket"
+        android:animation="@animator/eye_grain_unlock_scan" />
+</animated-vector>
+

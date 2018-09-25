@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- UI 控件 -->
+    <!-- SeekBarActivity -->
+    <drawable name="seekBarBackgroundColor">#BCBCBC</drawable>
+    <drawable name="seekBarProgressColor">#518EF1</drawable>
+    <!-- RecorderSeekBar -->
+    <drawable name="recorderSeekBarBackgroundColor">@android:color/black</drawable>
+    <drawable name="recorderSeekBarProgressColor">#FF2312</drawable>
+    <!-- LeLicenceDialog -->
+    <color name="le_licence_dialog_divider_color">#DFDFDF</color>
+    <color name="le_licence_dialog_content_text_color">#414141</color>
+    <color name="le_licence_dialog_text_blue_color">#2095F2</color>
+    <color name="le_licence_dialog_cb_text_color">#445963</color>
+    <color name="le_licence_dialog_btn_press_color">#F4F4F4</color>
+    <!-- LeCheckBox -->
+    <color name="le_color_default_checkbox_track_on">#518ef1</color>
+    <color name="le_color_default_checkbox_track_border">#d2d4d6</color>
+    <color name="le_color_default_checkbox_track">#f0f2f3</color>
+    <color name="le_color_default_checkbox_arrow">#ffffff</color>
+    <color name="color_divider">#daddde</color>
+    <color name="text_color">#525e66</color>
+    <!-- LeBlankPage -->
+    <color name="le_blank_page_common_gray">#CCCCCC</color>
+    <!-- ConversationActivity -->
+    <color name="conversation_item_mask_color">#0F000000</color>
+    <!-- UI 控件 -->
+
+    <!-- LeBlankPage -->
+    <color name="le_blank_page_prompt_color">#CCCCCC</color>
+    <color name="le_blank_page_button_normal_color">#2395EE</color>
+    <color name="le_blank_page_button_press_color">#4D2395EE</color>
+    <color name="le_blank_page_button_disable_color">#B32395EE</color>
+    <!-- LeBlankPage -->
+
+</resources>

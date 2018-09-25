@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.demoCollection.widget.YearGallery
+        android:id="@+id/gallery_year"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F9F9F9" />
+
+    <com.example.demoCollection.widget.MonthGallery
+        android:id="@+id/gallery_month"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="左" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="右" />
+    </LinearLayout>
+
+</LinearLayout>

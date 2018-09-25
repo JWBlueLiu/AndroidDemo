@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/has_no_wifi_connect">
+    <target
+        android:name="wifi_connet"
+        android:animation="@animator/wifi_connect_cicle_scale" />
+</animated-vector>
+

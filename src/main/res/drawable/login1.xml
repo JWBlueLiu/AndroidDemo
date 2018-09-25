@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="80dp"
+    android:width="80dp"
+    android:viewportHeight="240"
+    android:viewportWidth="240">
+    <!-- circle -->
+    <group
+        android:name="circle"
+        android:pivotX="120"
+        android:pivotY="120">
+        <path
+            android:fillColor="#43AD69"
+            android:pathData="M 0,120 a 120,120 0 1,0 240,0 a 120,120 0 1,0 -240,0" />
+    </group>
+
+    <!-- head -->
+    <group
+        android:name="head"
+        android:translateX="91.5"
+        android:translateY="63">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M28.5,0C12.763,0,0,14.775,0,32.999C0,51.225,12.763,66,28.5,66C44.237,66,57,51.225,57,32.999C57,14.775,44.237,0,28.5,0z
+    M28.5,54.353c-9.429,0-17.1-9.579-17.1-21.354c0-11.774,7.671-21.351,17.1-21.351c9.431,0,17.1,9.578,17.1,21.351
+    C45.6,44.774,37.931,54.353,28.5,54.353z" />
+    </group>
+
+    <!-- body -->
+    <group
+        android:name="body"
+        android:translateX="63"
+        android:translateY="135">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M76.565,0H38.231C17.059,0,0,16.9,0,38.072V42h11v-3.928C11,23.275,23.434,12,38.231,12h38.334
+    C91.357,12,103,23.275,103,38.072V42h11v-3.928C114,16.9,97.734,0,76.565,0z" />
+    </group>
+
+</vector>

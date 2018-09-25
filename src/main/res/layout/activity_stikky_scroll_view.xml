@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_container">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Using the StikkyHeader you can create easly some nice animations extending the HeaderStikkyAnimator and using the utility AnimatorBuilder. The animations available are Translation, Scale and Fade and can be combined to build an animation during the translation of the StikkyHeader.
+            Example:
+public class IconAnimator extends HeaderStikkyAnimator {
+    @Override
+    public AnimatorBuilder getAnimatorBuilder() {
+        View viewToAnimate = getHeader().findViewById(R.id.icon);
+        Point point = new Point(50,100) // translate to the point with coordinate (50,100);
+        float scaleX = 0.5f //scale to the 50%
+        float scaleY = 0.5f //scale to the 50%
+        float fade = 0.2f // 20% fade
+        AnimatorBuilder animatorBuilder = AnimatorBuilder.create()
+            .applyScale(viewToAnimate, scaleX, scaleY)
+            .applyTranslation(viewToAnimate, point)
+            .applyFade(viewToAnimate, fade);
+        return animatorBuilder;
+        public AnimatorBuilder getAnimatorBuilder() {
+        View viewToAnimate = getHeader().findViewById(R.id.icon);
+        Point point = new Point(50,100) // translate to the point with coordinate (50,100);
+        float scaleX = 0.5f //scale to the 50%
+        float scaleY = 0.5f //scale to the 50%
+        float fade = 0.2f // 20% fade
+        AnimatorBuilder animatorBuilder = AnimatorBuilder.create()
+            .applyScale(viewToAnimate, scaleX, scaleY)
+            .applyTranslation(viewToAnimate, point)
+            .applyFade(viewToAnimate, fade);
+        return animatorBuilder;
+        public AnimatorBuilder getAnimatorBuilder() {
+        View viewToAnimate = getHeader().findViewById(R.id.icon);
+        Point point = new Point(50,100) // translate to the point with coordinate (50,100);
+        float scaleX = 0.5f //scale to the 50%
+        float scaleY = 0.5f //scale to the 50%
+        float fade = 0.2f // 20% fade
+        AnimatorBuilder animatorBuilder = AnimatorBuilder.create()
+            .applyScale(viewToAnimate, scaleX, scaleY)
+            .applyTranslation(viewToAnimate, point)
+            .applyFade(viewToAnimate, fade);
+        return animatorBuilder;
+        public AnimatorBuilder getAnimatorBuilder() {
+        View viewToAnimate = getHeader().findViewById(R.id.icon);
+        Point point = new Point(50,100) // translate to the point with coordinate (50,100);
+        float scaleX = 0.5f //scale to the 50%
+        float scaleY = 0.5f //scale to the 50%
+        float fade = 0.2f // 20% fade
+        AnimatorBuilder animatorBuilder = AnimatorBuilder.create()
+            .applyScale(viewToAnimate, scaleX, scaleY)
+            .applyTranslation(viewToAnimate, point)
+            .applyFade(viewToAnimate, fade);
+        return animatorBuilder;
+    }
+}" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_blue_light">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/holo_red_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:text="haha" />
+    </RelativeLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,31 @@
+<resources>
+    
+    <!-- LeBlankPage -->
+    <style name="leBlankPageDefaultStyle">
+        <item name="leBlankPageColorPromptNormal">@android:color/holo_blue_light</item>
+        <item name="leBlankPageColorButtonNormal">@android:color/holo_blue_dark</item>
+        <item name="leBlankPageColorButtonPress">@android:color/holo_blue_dark</item>
+        <item name="leBlankPageColorButtonDisable">@android:color/holo_blue_dark</item>
+    </style>
+    <style name="LeBlankPage" parent="@style/leBlankPageDefaultStyle"/>
+    <style name="LeBlankPage.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textColor">?attr/leBlankPageColorPromptNormal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="LeBlankPage.Button">
+        <item name="android:layout_width">156dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">?attr/leBlankPageColorButtonNormal</item>
+        <item name="android:background">@drawable/le_blank_page_btn_selector</item>
+        <!--<item name="android:stateListAnimator">@null</item>-->
+    </style>
+
+</resources>
